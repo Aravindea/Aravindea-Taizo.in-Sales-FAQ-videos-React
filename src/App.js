@@ -5,8 +5,8 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import TaizoinSalesFAQsPageAne from "./pages/TaizoinSalesFAQsPageAne";
 import TaizoinSalesFAQsPageSow from "./pages/TaizoinSalesFAQsPageSow";
+import TaizoinSalesFAQsPageAne from "./pages/TaizoinSalesFAQsPageAne";
 
 function App() {
   const action = useNavigationType();
@@ -28,7 +28,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/taizoin-sales-faqs-page-sowmiya-gunasekaran":
+      case "/taizoin-sales-faqs-page-anees-fatima-azeezullah":
         title = "";
         metaDescription = "";
         break;
@@ -50,10 +50,10 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<TaizoinSalesFAQsPageAne />} />
+      <Route path="/" element={<TaizoinSalesFAQsPageSow />} />
       <Route
-        path="/taizoin-sales-faqs-page-sowmiya-gunasekaran"
-        element={<TaizoinSalesFAQsPageSow />}
+        path="/taizoin-sales-faqs-page-anees-fatima-azeezullah"
+        element={<TaizoinSalesFAQsPageAne />}
       />
     </Routes>
   );
