@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-be-vietnam: "Be Vietnam";
+  --font-poppins: Poppins;
+  --font-roboto: Roboto;
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-smi: 13px;
+  --font-size-xs: 12px;
+  --font-size-3xl: 22px;
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-7xl: 26px;
+  --font-size-15xl: 34px;
+  --font-size-5xl: 24px;
+  --font-size-9xl: 28px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-whitesmoke-100: #f9f9f9;
+  --color-whitesmoke-200: #ebeded;
+  --color-whitesmoke-300: #ebebeb;
+  --color-mediumseagreen-100: #169c50;
+  --color-mediumseagreen-200: #13954c;
+  --color-darkslategray-100: #393939;
+  --color-darkslategray-200: #052e17;
+  --color-honeydew: #d3f9e4;
+  --color-teal: #1a859c;
+  --color-lightcyan: #d5eff4;
+  --color-gray-100: rgba(255, 255, 255, 0.85);
+  --color-gray-200: rgba(0, 0, 0, 0.15);
+  --color-gray-300: rgba(0, 0, 0, 0.25);
+  --color-goldenrod: #eecd59;
+
+  /* Gaps */
+  --gap-11xl: 30px;
+  --gap-xl: 20px;
+  --gap-3xs: 10px;
+  --gap-11xs: 2px;
+  --gap-41xl: 60px;
+  --gap-21xl: 40px;
+  --gap-56xl: 75px;
+  --gap-31xl: 50px;
+  --gap-5xs: 8px;
+  --gap-8xs: 5px;
+  --gap-0: 0px;
+  --gap-2xs: 11px;
+  --gap-sm: 14px;
+  --gap-6xl: 25px;
+  --gap-mid: 17px;
+  --gap-xs: 12px;
+  --gap-9xs: 4px;
+  --gap-7xs: 6px;
+  --gap-63xs: -50px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-16xl: 35px;
+  --padding-61xl: 80px;
+  --padding-11xl: 30px;
+  --padding-31xl: 50px;
+  --padding-41xl: 60px;
+  --padding-mini: 15px;
+  --padding-2xl: 21px;
+  --padding-21xl: 40px;
+  --padding-6xl: 25px;
+  --padding-19xl: 38px;
+
+  /* Border radiuses */
+  --br-6xl: 25px;
+  --br-mini: 15px;
+  --br-xl: 20px;
+  --br-161xl: 180px;
+  --br-11xl: 30px;
+  --br-9xs: 4px;
+  --br-81xl: 100px;
+  --br-3xs: 10px;
+}

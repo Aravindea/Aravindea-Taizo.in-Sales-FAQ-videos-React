@@ -1,0 +1,1316 @@
+@keyframes scale-up {
+  0% {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+.taizoLogoIcon {
+  position: relative;
+  width: 142px;
+  height: 44px;
+  mix-blend-mode: normal;
+  cursor: pointer;
+}
+.taizoLogoIcon:hover {
+  cursor: pointer;
+}
+.navBarLinks {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1280px;
+}
+.line {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-darkslategray-100);
+  height: 2px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navBar,
+.navBarLogoDividerLine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navBarLogoDividerLine {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  max-width: 1280px;
+}
+.navBar {
+  align-self: stretch;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-xl) var(--padding-61xl) 0;
+  top: 0;
+  left: 0;
+  position: sticky;
+  z-index: 100;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.12);
+}
+.hiring,
+.machineOperators,
+.madeSimpleOrganized {
+  align-self: stretch;
+  position: relative;
+  text-transform: capitalize;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.hiring {
+  font-weight: 500;
+  height: 45px;
+}
+.machineOperators,
+.madeSimpleOrganized {
+  margin-top: -10px;
+}
+.machineOperators {
+  font-size: var(--font-size-15xl);
+  color: var(--color-goldenrod);
+  height: 58px;
+}
+.madeSimpleOrganized {
+  font-size: var(--font-size-lg);
+  height: 37px;
+}
+.hriringMachineOperatorsTitl,
+.machineOperatorsBgImg {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.machineOperatorsBgImg {
+  border-radius: var(--br-xl);
+  height: 286px;
+  overflow: hidden;
+  flex-shrink: 0;
+  padding: var(--padding-19xl) 0 0;
+  box-sizing: border-box;
+  background-image: url(/public/machine-operators-bgimg@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.bgImgGreenCard {
+  position: relative;
+  border-radius: var(--br-xl);
+  width: 1076px;
+  height: 315px;
+  object-fit: cover;
+  opacity: 0.6;
+  mix-blend-mode: multiply;
+  z-index: 0;
+}
+.sowiyaNameCard1 {
+  align-self: stretch;
+  position: relative;
+  border-radius: 0 var(--br-3xs) var(--br-3xs) 0;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.14) 47.92%,
+    transparent
+  );
+  height: 146px;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.sowmiyaGunasekaran {
+  align-self: stretch;
+  position: relative;
+  font-weight: 600;
+  text-shadow: 0 0 0 rgba(0, 0, 0, 0.25);
+}
+.customerOnboardingSpecialist {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+}
+.sowiyaNameRole {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.taizoin {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 81px;
+}
+.div,
+.introduction {
+  flex: 1;
+  position: relative;
+}
+.div {
+  font-weight: 600;
+  display: inline-block;
+  max-width: 7px;
+}
+.introduction {
+  font-weight: 500;
+}
+.sowiyaNameCard,
+.sowiyaNameCard2,
+.taizoinIntroductionText {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.taizoinIntroductionText {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-7xs);
+  font-size: var(--font-size-xl);
+}
+.sowiyaNameCard,
+.sowiyaNameCard2 {
+  margin: 0 !important;
+  position: absolute;
+  top: 11px;
+  left: 28px;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.sowiyaNameCard {
+  top: 85px;
+  left: 0;
+  width: 383px;
+  gap: var(--gap-3xs);
+}
+.playButton1stBackground,
+.playButton2ndBackground {
+  position: absolute;
+  top: calc(50% - 70px);
+  left: calc(50% - 70px);
+  border-radius: var(--br-81xl);
+  background-color: var(--color-gray-200);
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  opacity: 1;
+}
+.playButton1stBackground.animate,
+.playButton2ndBackground.animate {
+  animation: 1s ease 0s infinite normal forwards scale-up;
+}
+.playButton1stBackground {
+  top: calc(50% - 55.09px);
+  left: calc(50% - 55.09px);
+  background-color: var(--color-gray-300);
+  width: 111.01px;
+  height: 111.01px;
+}
+.playButtonImage1 {
+  position: absolute;
+  top: calc(50% - 40px);
+  left: calc(50% - 40px);
+  width: 82px;
+  height: 82px;
+  object-fit: cover;
+}
+.introVideoPlayButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 69.5px);
+  left: calc(50% - 70.5px);
+  width: 140px;
+  height: 140px;
+  z-index: 2;
+}
+.sowmiyaIntroSection1 {
+  align-self: stretch;
+  border-radius: var(--br-xl);
+  background-color: var(--color-mediumseagreen-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-3xs);
+  z-index: 0;
+}
+.sowminyaG1 {
+  position: absolute;
+  margin: 0 !important;
+  top: -37px;
+  right: 6px;
+  width: 346px;
+  height: 352px;
+  object-fit: cover;
+  z-index: 1;
+}
+.machineOperatorsBgSowmiyaI,
+.sowmiyaIntroSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.sowmiyaIntroSection {
+  width: 100%;
+  position: relative;
+  max-width: 1076px;
+  margin-top: -86px;
+  text-align: left;
+  font-size: var(--font-size-7xl);
+  color: var(--color-white);
+}
+.machineOperatorsBgSowmiyaI {
+  align-self: stretch;
+}
+.sowmiyaIntro960LessScreens {
+  position: relative;
+  width: 960px;
+  height: 478px;
+  object-fit: cover;
+  display: none;
+  margin-top: -170px;
+}
+.mainBodyMachineOperatorsBg {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 1285px;
+}
+.scheduleACall {
+  position: absolute;
+  top: 6px;
+  left: 11px;
+  font-weight: 500;
+}
+.scheduleACallWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-lightcyan);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+  width: 116px;
+  height: 30px;
+  overflow: hidden;
+}
+.scheduleACallFloatingActioInner {
+  position: relative;
+  width: 116px;
+  height: 30px;
+  display: none;
+}
+.calendar1196SvgrepoCom1Icon {
+  position: absolute;
+  height: 40%;
+  width: 40%;
+  top: 30%;
+  right: 30%;
+  bottom: 30%;
+  left: 30%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.postAJobFloatingButton {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-teal);
+  position: relative;
+  border-radius: var(--br-11xl);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.scheduleACallFloatingActio {
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+}
+.postAJobFloatingActionBut:hover .postAJobFloatingActionButInner,
+.scheduleACallFloatingActio:hover .scheduleACallFloatingActioInner {
+  display: flex;
+}
+.postAJob {
+  position: absolute;
+  top: 6px;
+  left: 14px;
+  font-weight: 500;
+}
+.postAJobWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-honeydew);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  width: 91px;
+  height: 30px;
+  overflow: hidden;
+}
+.postAJobFloatingActionButInner {
+  position: relative;
+  width: 91px;
+  height: 30px;
+  display: none;
+}
+.postAJobFloatingButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-mediumseagreen-200);
+  position: relative;
+  border-radius: var(--br-11xl);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.postAJobFloatingActionBut {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  cursor: pointer;
+}
+.bottomRightFloatingButtonP {
+  margin: 0 !important;
+  position: fixed;
+  right: 12px;
+  bottom: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  z-index: 100;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-100);
+}
+.mainBody {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-2xl) var(--padding-61xl) var(--padding-21xl);
+  gap: var(--gap-3xs);
+}
+.faqs,
+.leftLine {
+  flex: 1;
+  position: relative;
+}
+.leftLine {
+  background-color: var(--color-darkslategray-100);
+  height: 2px;
+}
+.faqs {
+  display: inline-block;
+  max-width: 101px;
+}
+.faqsTitle {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.faqVideo1PlayButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-161xl);
+  background-color: var(--color-whitesmoke-300);
+  border: 1px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+}
+.playButtonSvgrepoCom1Icon {
+  position: absolute;
+  top: 3.91px;
+  left: 3.91px;
+  width: 52.61px;
+  height: 52.61px;
+  overflow: hidden;
+}
+.video1PlayButton {
+  position: absolute;
+  top: 60px;
+  left: 124px;
+  width: 60px;
+  height: 60px;
+}
+.faqVideo1Thumbnail {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-mini);
+  width: 308px;
+  height: 179px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(/public/faq-video-1-thumbnail@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.div1 {
+  display: inline-block;
+  max-width: 23px;
+}
+.div1,
+.whatDifferentiatesTaizoin {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.faqVideo1TitleText {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.faqVideo1ThumbnailParent,
+.faqsVideosSectionInner {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.faqVideo1ThumbnailParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-11xl);
+}
+.faqsVideosSectionInner {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-whitesmoke-300);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-mini);
+}
+.faqVideo2Thumbnail {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-mini);
+  width: 308px;
+  height: 179px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(/public/faqvideo2thumbnail1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.div2 {
+  display: inline-block;
+  max-width: 23px;
+}
+.div2,
+.whyDoWe {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+}
+.faqVideo2ThumbnailParent,
+.faqsVideosSectionChild {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.faqVideo2ThumbnailParent {
+  flex-direction: row;
+  align-items: center;
+  gap: var(--gap-11xl);
+}
+.faqsVideosSectionChild {
+  border-radius: var(--br-6xl);
+  background-color: var(--color-whitesmoke-300);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-mini);
+}
+.faqVideo3Thumbnail,
+.faqVideo4Thumbnail {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  border-radius: var(--br-mini);
+  width: 308px;
+  height: 179px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-image: url(/public/faqvideo3thumbnail1.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.faqVideo4Thumbnail {
+  background-image: url(/public/faqvideo4thumbnail1.svg);
+}
+.faqsSection1,
+.faqsVideosSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.faqsVideosSection {
+  align-self: stretch;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-3xl);
+}
+.faqsSection1 {
+  flex: 1;
+  gap: var(--gap-21xl);
+  max-width: 1076px;
+}
+.faqsSection {
+  align-self: stretch;
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-61xl) var(--padding-31xl);
+  font-size: var(--font-size-11xl);
+  color: var(--color-darkslategray-100);
+}
+.footerLogoIcon {
+  position: relative;
+  width: 152.35px;
+  height: 46px;
+  cursor: pointer;
+}
+.taizoEnablesManufacturing {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  max-width: 320px;
+}
+.footerLogoText {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.employer,
+.jobseeker {
+  text-decoration: none;
+  align-self: stretch;
+  position: relative;
+  color: inherit;
+  cursor: pointer;
+}
+.employer:hover,
+.jobseeker:hover,
+.wereHiring:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.jobseeker {
+  cursor: auto;
+}
+.links,
+.linksText,
+.more {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.linksText {
+  align-self: stretch;
+  gap: var(--gap-sm);
+  font-size: var(--font-size-sm);
+  color: var(--color-whitesmoke-200);
+}
+.links,
+.more {
+  gap: var(--gap-2xs);
+}
+.links {
+  width: 94px;
+}
+.more {
+  flex: 1;
+}
+.carreers,
+.wereHiring {
+  align-self: stretch;
+  position: relative;
+}
+.carreers {
+  font-weight: 500;
+}
+.wereHiring {
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  color: var(--color-whitesmoke-200);
+  cursor: pointer;
+}
+.footerQuickLinks,
+.moreCareers {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.footerQuickLinks {
+  gap: var(--gap-31xl);
+  font-size: var(--font-size-lg);
+  color: var(--color-mediumseagreen-100);
+}
+.whatsappIcon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+}
+.whatsappIcon,
+.whatsappIcon:hover {
+  cursor: pointer;
+}
+.facebookIcon {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.facebookIcon,
+.youtubeIcon {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+.socialIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.weWouldLove {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 22px;
+  flex-shrink: 0;
+}
+.infotaizoin {
+  text-decoration: none;
+  flex: 1;
+  position: relative;
+  color: var(--color-mediumseagreen-100);
+  z-index: 0;
+}
+.infotaizoin:hover,
+.privacyPolicy:hover,
+.termsCondition:hover {
+  text-decoration: underline;
+}
+.a,
+.div5,
+.infotaizoin {
+  display: inline-block;
+  height: 22px;
+}
+.div5 {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+.a {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 117px;
+  font-family: var(--font-roboto);
+  color: inherit;
+  text-align: left;
+  width: 4px;
+  flex-shrink: 0;
+  text-decoration: none;
+  z-index: 2;
+}
+.supportDetails {
+  width: 237px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: var(--gap-5xs);
+}
+.support {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-3xs);
+}
+.footerContent,
+.socialLink,
+.support {
+  display: flex;
+  justify-content: flex-start;
+}
+.socialLink {
+  width: 276px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-56xl);
+  text-align: right;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.footerContent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-41xl);
+}
+.greenDivLine {
+  align-self: stretch;
+  position: relative;
+  background-color: var(--color-mediumseagreen-100);
+  height: 1px;
+}
+.copyrightTaizo {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+}
+.div6,
+.privacyPolicy,
+.termsCondition {
+  position: relative;
+  line-height: 20px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.privacyPolicy {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-be-vietnam);
+  color: var(--color-whitesmoke-200);
+  text-align: left;
+  width: 94px;
+}
+.div6,
+.termsCondition {
+  width: 8px;
+}
+.termsCondition {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-be-vietnam);
+  color: var(--color-whitesmoke-200);
+  text-align: left;
+  width: 123px;
+}
+.cotainer2,
+.privacyTerms {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.privacyTerms {
+  flex: 1;
+  justify-content: flex-end;
+  gap: var(--gap-11xs);
+  font-family: var(--font-be-vietnam);
+}
+.cotainer2 {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.footerContainer1,
+.footerT {
+  display: flex;
+  align-items: center;
+}
+.footerContainer1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  max-width: 1280px;
+}
+.footerT {
+  align-self: stretch;
+  background-color: var(--color-black);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-16xl) var(--padding-61xl);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-whitesmoke-200);
+}
+.taizoinSalesFaqsPageSow {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-whitesmoke-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1200px) {
+  .navBar {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .sowmiyaIntroSection {
+    max-width: 1010px;
+  }
+  .faqsSection,
+  .mainBody {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .footerQuickLinks {
+    gap: var(--gap-xl);
+  }
+  .footerContent {
+    gap: var(--gap-21xl);
+  }
+  .footerT {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 960px) {
+  .navBar {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .hiring {
+    font-size: var(--font-size-3xl);
+    height: 40px;
+  }
+  .machineOperators {
+    font-size: var(--font-size-11xl);
+    height: 55px;
+  }
+  .madeSimpleOrganized {
+    font-size: var(--font-size-lg);
+    height: 10px;
+  }
+  .hriringMachineOperatorsTitl {
+    height: auto;
+    gap: var(--gap-63xs);
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .machineOperatorsBgImg {
+    height: 380px;
+    padding-top: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .sowmiyaIntroSection {
+    display: none;
+    max-width: 840px;
+  }
+  .sowmiyaIntro960LessScreens {
+    display: flex;
+    max-width: 95%;
+    height: auto;
+  }
+  .mainBody {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .div1,
+  .div2,
+  .whatDifferentiatesTaizoin,
+  .whyDoWe {
+    font-size: var(--font-size-xl);
+  }
+  .faqsSection {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .footerLogoText {
+    flex: unset;
+    align-self: stretch;
+  }
+  .moreCareers {
+    gap: var(--gap-0);
+    padding-left: var(--padding-41xl);
+    padding-right: var(--padding-41xl);
+    padding-bottom: 0;
+    box-sizing: border-box;
+  }
+  .footerQuickLinks {
+    flex: unset;
+    align-self: stretch;
+  }
+  .infotaizoin,
+  .weWouldLove {
+    text-align: left;
+  }
+  .div5 {
+    text-align: right;
+  }
+  .a {
+    text-align: left;
+  }
+  .supportDetails {
+    gap: var(--gap-8xs);
+  }
+  .socialLink,
+  .support {
+    gap: var(--gap-3xs);
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .socialLink {
+    gap: var(--gap-31xl);
+    padding-top: var(--padding-31xl);
+    box-sizing: border-box;
+  }
+  .footerContent {
+    flex-direction: column;
+    gap: var(--gap-11xl);
+    padding-top: 0;
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+  .footerContainer1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footerT {
+    flex-direction: column;
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    padding-bottom: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 420px) {
+  .taizoLogoIcon {
+    max-width: 35%;
+    height: auto;
+  }
+  .navBarLinks {
+    display: flex;
+  }
+  .line {
+    height: 1px;
+  }
+  .navBar {
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .taizoEnablesManufacturing {
+    font-size: var(--font-size-smi);
+  }
+  .footerLogoText {
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+  .moreCareers {
+    gap: var(--gap-xl);
+    flex: unset;
+    align-self: stretch;
+  }
+  .footerQuickLinks {
+    flex-direction: column;
+  }
+  .supportDetails {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .socialLink {
+    gap: var(--gap-xl);
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .copyrightTaizo {
+    flex: unset;
+    align-self: stretch;
+  }
+  .privacyPolicy {
+    text-align: left;
+  }
+  .cotainer2,
+  .privacyTerms {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .privacyTerms {
+    flex: unset;
+    align-self: stretch;
+  }
+  .cotainer2 {
+    flex-direction: column;
+    gap: var(--gap-3xs);
+  }
+  .footerContainer1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footerT {
+    flex-direction: column;
+    padding-left: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 350px) {
+  .taizoEnablesManufacturing {
+    font-size: var(--font-size-xs);
+  }
+  .footerLogoText {
+    align-self: stretch;
+    width: auto;
+  }
+}
+@media screen and (max-width: 768px) {
+  .taizoLogoIcon {
+    max-width: 40%;
+    height: auto;
+  }
+  .navBar {
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .sowmiyaIntro960LessScreens {
+    display: flex;
+  }
+  .mainBody {
+    padding-left: var(--padding-mini);
+    padding-right: var(--padding-mini);
+    box-sizing: border-box;
+  }
+  .div1,
+  .whatDifferentiatesTaizoin {
+    font-size: var(--font-size-lg);
+    text-align: left;
+  }
+  .faqVideo1TitleText {
+    flex: unset;
+    align-self: stretch;
+  }
+  .faqVideo1ThumbnailParent {
+    flex-direction: column;
+    gap: var(--gap-xl);
+    align-items: center;
+    justify-content: center;
+  }
+  .faqsVideosSectionInner {
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .div2,
+  .whyDoWe {
+    font-size: var(--font-size-lg);
+  }
+  .faqVideo2ThumbnailParent {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .faqsSection1 {
+    max-width: 340px;
+  }
+  .taizoEnablesManufacturing {
+    width: 442px;
+  }
+  .more,
+  .moreCareers {
+    flex: unset;
+    align-self: stretch;
+  }
+  .moreCareers {
+    flex-direction: column;
+    gap: var(--gap-21xl);
+    padding-left: 0;
+    box-sizing: border-box;
+  }
+  .footerQuickLinks {
+    flex-direction: column;
+    gap: var(--gap-31xl);
+  }
+  .socialLink {
+    gap: var(--gap-11xl);
+  }
+  .footerContent {
+    gap: var(--gap-41xl);
+  }
+  .footerT {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 600px) {
+  .navBar {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .hiring {
+    font-size: var(--font-size-xl);
+  }
+  .machineOperators {
+    font-size: var(--font-size-5xl);
+    height: 48px;
+  }
+  .madeSimpleOrganized {
+    font-size: var(--font-size-base);
+    height: 15px;
+  }
+  .machineOperatorsBgImg {
+    height: 320px;
+    padding-top: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .sowmiyaIntro960LessScreens {
+    display: flex;
+    max-width: 105%;
+    height: auto;
+  }
+  .mainBody {
+    padding: var(--padding-2xl) var(--padding-xl) var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .faqs {
+    font-size: var(--font-size-7xl);
+  }
+  .div1,
+  .whatDifferentiatesTaizoin {
+    font-size: var(--font-size-base);
+  }
+  .faqVideo1TitleText {
+    flex: unset;
+    align-self: stretch;
+  }
+  .faqVideo1ThumbnailParent {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .faqsVideosSectionInner {
+    border-radius: var(--br-xl);
+  }
+  .div2,
+  .whyDoWe {
+    font-size: var(--font-size-base);
+  }
+  .faqVideo2ThumbnailParent {
+    flex-direction: column;
+    gap: var(--gap-xl);
+  }
+  .faqsSection1 {
+    gap: var(--gap-6xl);
+    max-width: 340px;
+  }
+  .footerLogoText {
+    width: auto;
+  }
+  .footerLogoText,
+  .more {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footerQuickLinks,
+  .moreCareers {
+    flex-direction: column;
+    flex: unset;
+    align-self: stretch;
+  }
+  .footerQuickLinks {
+    width: 460px;
+    gap: var(--gap-31xl);
+  }
+  .infotaizoin,
+  .weWouldLove {
+    text-align: left;
+  }
+  .socialLink,
+  .support {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .socialLink {
+    gap: var(--gap-21xl);
+  }
+  .footerContent {
+    flex-direction: column;
+    gap: var(--gap-41xl);
+  }
+  .footerContainer1 {
+    flex: unset;
+    align-self: stretch;
+  }
+  .footerT {
+    flex-direction: column;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
